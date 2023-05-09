@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Dashboard",
+    "icon": "fa-solid fa-gauge",
+    "route": "/"
+  },
+  {
+    "id": 2,
+    "name": "Customers",
+    "icon": "fa-solid fa-user-group",
+    "route": "/customers"
+  },
+  {
+    "id": 3,
+    "name": "Products",
+    "icon": "fa-solid fa-gauge",
+    "route": "/products"
+  },
+  {
+    "id": 4,
+    "name": "Orders",
+    "icon": "fa-solid fa-gauge",
+    "route": "/orders"
+  },
+  {
+    "id": 5,
+    "name": "Analytics",
+    "icon": "fa-solid fa-gauge",
+    "route": "/analytics"
+  },
+  {
+    "id": 6,
+    "name": "Catagories",
+    "icon": "fa-solid fa-gauge",
+    "route": "/Catagories"
+  },
+  {
+    "id": 7,
+    "name": "Discount",
+    "icon": "fa-solid fa-gauge",
+    "route": "/Discount"
+  },
+  {
+    "id": 8,
+    "name": "Inventory",
+    "icon": "fa-solid fa-gauge",
+    "route": "/inventory"
+  },
+  {
+    "id": 9,
+    "name": "Settings",
+    "icon": "fa-solid fa-gauge",
+    "route": "/settings"
+  }
+]

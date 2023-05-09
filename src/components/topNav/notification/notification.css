@@ -1,0 +1,31 @@
+.notification {
+  width: 321px;
+  background-color: var(--main-bg-dark);
+  box-shadow: var(--box-shadow);
+  z-index: 40;
+  color: white;
+  top: 43px;
+  position: absolute;
+  left: -302px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.notification div {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+.notification div:hover {
+  background-color: var(--second-bg-dark);
+}
+.notification div:hover {
+  background-color: var(--second-bg-dark);
+}
+.notification p {
+  color: var(--txt-color-dark);
+  margin: 0;
+  margin-left: 20px;
+}
+.notification div img {
+  width: 30px !important;
+}

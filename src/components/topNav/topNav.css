@@ -1,0 +1,89 @@
+.topnav {
+  position: absolute;
+  left: 300px;
+  width: calc(100% - 300px);
+  height: 100px;
+  display: flex;
+  background-color: var(--second-bg-dark);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 30px;
+}
+.topnav .topnav-left {
+  position: relative;
+}
+.topnav .topnav-left input {
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  width: 300px;
+  outline: none;
+  box-shadow: var(--box-shadow);
+  background-color: var(--main-bg-dark);
+  color: white;
+}
+.topnav .topnav-left input:focus {
+  outline: 2px solid var(--second-color-red);
+}
+.topnav .topnav-left input::placeholder {
+  font-size: 16px;
+}
+.topnav-left img {
+  position: absolute;
+  right: 10px;
+  top: 13px;
+  width: 20px;
+}
+.topnav .topnav-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topnav .topnav-right .profile-icon {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+  cursor: pointer;
+  color: #dddddd;
+  font-weight: bold;
+  position: relative;
+}
+.topnav .topnav-right .profile-icon span {
+  font-size: 20px;
+}
+.topnav .topnav-right .profile-icon img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.topnav .topnav-right .notfication-icon {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+}
+.topnav .topnav-right .notfication-icon img {
+  width: 40px;
+}
+
+.topnav .topnav-right .notfication-icon .count {
+  position: absolute;
+  right: -8px;
+  background-color: var(--main-color-red);
+  border-radius: 50%;
+  top: -15px;
+  padding: 2px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.topnav .topnav-right .theme-icon {
+  width: 40px;
+  margin-left: 15px;
+  cursor: pointer;
+}

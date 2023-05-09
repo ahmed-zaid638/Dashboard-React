@@ -1,0 +1,36 @@
+.customers {
+  background-color: var(--second-bg-dark);
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  width: calc(100% - 300px);
+  height: auto ;
+  padding: 30px;
+}
+
+.customers h1 {
+  color: #bbbbbb;
+}
+.customers .table-wrapper {
+  color: white;
+  padding: 15px;
+  background: var(--main-bg-dark);
+  border-radius: 15px;
+ overflow-y: auto;
+}
+
+.customers .table-wrapper table thead tr {
+  background-color: var(--second-bg-dark);
+  font-weight: bold;
+}
+
+.customers .table-wrapper table tbody tr:hover {
+  background-color: var(--second-color-red);
+}
+.customers .table-wrapper table tr td {
+  padding: 20px;
+
+}
+
+
+

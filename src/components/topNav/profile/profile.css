@@ -1,0 +1,31 @@
+.profile {
+  width: 160px;
+  background-color: var(--main-bg-dark);
+  box-shadow: var(--box-shadow);
+  z-index: 40;
+  color: white;
+  top: 42px;
+  position: absolute;
+  left: -142px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.profile > div {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+}
+.profile div:hover {
+  background-color: var(--second-bg-dark);
+}
+.profile div:hover {
+  background-color: var(--second-bg-dark);
+}
+.profile > div div  {
+ margin-left: 10px;
+
+}
+
+.profile div img {
+  width: 25px !important;
+}

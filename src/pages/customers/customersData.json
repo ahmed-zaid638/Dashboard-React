@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "phone": "555-555-5555",
+      "Total Orders": 5,
+      "Total Spend": 250.75,
+      "Location": "New York"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "phone": "555-555-1234",
+      "Total Orders": 12,
+      "Total Spend": 985.50,
+      "Location": "Los Angeles"
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "email": "bobjohnson@example.com",
+      "phone": "555-555-9876",
+      "Total Orders": 2,
+      "Total Spend":  "$33455" , 
+      "Location": "Chicago"
+    },
+    {
+      "id": 4,
+      "name": "Sarah Lee",
+      "email": "sarahlee@example.com",
+      "phone": "555-555-1111",
+      "Total Orders": 8,
+      "Total Spend":  "$444.55" , 
+      "Location": "Miami"
+    },
+    {
+      "id": 5,
+      "name": "Mike Chen",
+      "email": "mikechen@example.com",
+      "phone": "555-555-2222",
+      "Total Orders": 3,
+      "Total Spend":  "$444.55" , 
+      "Location": "San Francisco"
+    },
+    {
+      "id": 6,
+      "name": "Amy Lee",
+      "email": "amylee@example.com",
+      "phone": "555-555-3333",
+      "Total Orders": 15,
+      "Total Spend":  "$774.55" , 
+      "Location": "Seattle"
+    },
+    {
+      "id": 7,
+      "name": "David Kim",
+      "email": "davidkim@example.com",
+      "phone": "555-555-4444",
+      "Total Orders": 10,
+      "Total Spend":  "$434553" , 
+      "Location": "Boston"
+    },
+    {
+      "id": 8,
+      "name": "Emily Smith",
+      "email": "emilysmith@example.com",
+      "phone": "555-555-5555",
+      "Total Orders": 6,
+      "Total Spend": "$042345",
+      "Location": "Atlanta"
+    },
+    {
+      "id": 9,
+      "name": "Tom Jones",
+      "email": "tomjones@example.com",
+      "phone": "555-555-6666",
+      "Total Orders": 4,
+      "Total Spend":"$3406" ,
+      "Location": "Dallas"
+    },
+    {
+      "id": 10,
+      "name": "Lisa Kim",
+      "email": "lisakim@example.com",
+      "phone": "555-555-7777",
+      "Total Orders": 9,
+      "Total Spend": "$3643" ,
+      "Location": "Washington D.C."
+    }
+  ]
+  

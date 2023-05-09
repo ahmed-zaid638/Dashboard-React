@@ -1,0 +1,90 @@
+.theme {
+  color: rgb(226, 226, 226);
+  position: fixed;
+  z-index: 16;
+  right: 0px;
+  top: 0;
+  height: 100vh;
+  width: 300px;
+  background-color: var(--main-bg-dark);
+  box-shadow: var(--box-shadow);
+  padding: 20px;
+  animation: move 0.7s;
+  transition: 0.3s;
+}
+@keyframes move {
+  10% {
+    right: 40px;
+  }
+  100% {
+    right: 0;
+  }
+}
+
+.theme.hide {
+  right: -300px;
+}
+.theme .header {
+  display: flex;
+  justify-content: space-between;
+}
+.theme .header img {
+  width: 14px;
+  cursor: pointer;
+}
+.theme .header div {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.theme .picker {
+  margin-top: 40px;
+}
+.theme .picker ul {
+  padding: 0;
+}
+.theme .picker ul li {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.theme .picker ul li div {
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.theme .mode-list ul li:nth-child(1) div {
+  background-color: white;
+}
+.theme .mode-list ul li:nth-child(1) div {
+  background-color: white;
+}
+.theme .color-list ul li:nth-child(1) div {
+  background-color: var(--main-color-blue);
+}
+.theme .color-list ul li:nth-child(2) div {
+  background-color: var(--main-color-cyan);
+}
+.theme .color-list ul li:nth-child(3) div {
+  background-color: var(--main-color-red);
+}
+.theme .color-list ul li:nth-child(4) div {
+  background-color: var(--main-color-orange);
+}
+.theme .color-list ul li:nth-child(5) div {
+  background-color: var(--main-color-green);
+}
+
+.theme .picker div img {
+  width: 50%;
+}
+.theme .picker span {
+  font-size: 18px;
+}

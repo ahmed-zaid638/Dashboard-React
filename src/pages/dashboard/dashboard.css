@@ -1,0 +1,123 @@
+.dashboard {
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  width: calc(100% - 300px);
+  height: 120%;
+  background-color: var(--second-bg-dark);
+  padding: 20px;
+  color: var(--txt-color-dark);
+}
+
+.dashboard .stats .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.dashboard .stats .boxes .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 10px 10px;
+  width: calc(50% - 10px);
+  background-color: var(--main-bg-dark);
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+}
+
+
+.dashboard .stats .boxes .box::before {
+  content: "";
+  position: absolute;
+  width: 118%;
+  height: 29%;
+  background-color: var(--second-color-red);
+  left: -138px;
+  bottom: -169px;
+  transition: 1s;
+  transform: rotate(45deg);
+  z-index: -3;
+}
+.dashboard .stats .boxes .box:hover::before {
+  width: 315%;
+  height: 620%;
+}
+.dashboard .stats .boxes .box .icon {
+  width: 48px;
+  height: 48px;
+}
+.dashboard .stats .graph {
+  background-color: var(--main-bg-dark);
+  border-radius: 10px;
+  padding: 30px;
+}
+/* table  */
+.dashboard .tables {
+  display: flex;
+  margin-top: 30px;
+  gap: 20px;
+}
+.dashboard .tables .topcutomers {
+  width: 35%;
+  background-color: var(--main-bg-dark);
+  border-radius: 10px;
+  padding: 30px;
+}
+.dashboard .tables .topcutomers .table-wrapper {
+  overflow-y: auto;
+}
+
+table tr {
+  white-space: nowrap;
+}
+table tr td {
+  padding: 10px;
+}
+.dashboard .tables .topcutomers table thead tr,
+.dashboard .tables .orders table thead tr {
+  background-color: var(--second-bg-dark);
+  font-weight: bold;
+}
+.dashboard .tables .topcutomers table tbody tr:hover,
+.dashboard .tables .orders table tbody tr:hover {
+  background: var(--second-color-red);
+}
+
+.dashboard .tables .orders table tbody tr span {
+  border-radius: 10px;
+  padding: 4px 9px;
+  color: white;
+  font-weight: bold;
+  
+}
+
+.dashboard .tables .orders table tbody tr:nth-child(1) span {
+  background-color: var(--main-color-blue);
+}
+.dashboard .tables .orders table tbody tr:nth-child(2) span {
+  background-color: var(--main-color-green);
+}
+.dashboard .tables .orders table tbody tr:nth-child(3) span {
+  background-color: var(--main-color-orange);
+}
+.dashboard .tables .orders table tbody tr:nth-child(4) span {
+  background-color: var(--main-color-green);
+}
+.dashboard .tables .orders table tbody tr:nth-child(5) span {
+  background-color: var(--main-color-red);
+}
+
+.dashboard .tables .orders {
+  width: 65%;
+  background-color: var(--main-bg-dark);
+  border-radius: 10px;
+  padding: 30px;
+}
+.dashboard .view-all {
+  cursor: pointer;
+}
+.dashboard .view-all:hover {
+  color: var(--second-color-red);
+}

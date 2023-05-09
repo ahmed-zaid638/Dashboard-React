@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600;700&family=Roboto:wght@100;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  
+}
+:root {
+  --main-bg: #ffffff;
+  --second-bg: #fafafb;
+  --main-bg-dark: #2d2d2d;
+  --second-bg-dark: #202020;
+  --txt-color-dark: #bbbbbb;
+  --box-shadow-dark: rgba(0, 0, 0, 0.2) 0px 5px 10px;
+  --main-color-blue: #349eff;
+  --second-color-blue: #62b4ff;
+  --main-color-red: #fb0b12;
+  --second-color-red: #ff4a6b;
+  --main-color-cyan: #10d4d2;
+  --second-color-cyan: #2ae9e6;
+  --main-color-green: #019707;
+  --second-color-green: #4caf50;
+  --main-color-orange: #d68102;
+  --second-color-orange: #fca11a;
+  --box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
