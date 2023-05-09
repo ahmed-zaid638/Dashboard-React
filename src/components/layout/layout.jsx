@@ -1,12 +1,12 @@
 import Sidebar from "../sidebar/sidebar";
 import TopNav from "../topNav/topNav";
-import { BrowserRouter as Router } from "react-router-dom";
+import {  BrowserRouter as Router } from "react-router-dom";
 import _Routes from "../Routes";
 import "./layout.css";
 
 const Layout = () => {
   return (
-    <Router>
+    <Router basename="">
       <div className="layout">
         <Sidebar />
         <div className="layout-content">
@@ -19,7 +19,3 @@ const Layout = () => {
 };
 
 export default Layout;
-
-
-
-
