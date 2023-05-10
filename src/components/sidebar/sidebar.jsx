@@ -6,7 +6,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar ">
       <div className="logo"> Ahmed Zaid </div>
-      <div className="items" >
+      <div className="items">
         {itemsdata.map((item, index) => {
           return (
             <SidebarItem

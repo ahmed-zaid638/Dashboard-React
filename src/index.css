@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   
+  
 }
 :root {
   --main-bg: #ffffff;
@@ -24,6 +25,7 @@
   --main-color-orange: #d68102;
   --second-color-orange: #fca11a;
   --box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px;
+  
 }
 
 ul {
