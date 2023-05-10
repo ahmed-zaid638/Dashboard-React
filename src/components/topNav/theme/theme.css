@@ -70,10 +70,10 @@
   background-color: var(--main-color-blue);
 }
 .theme .color-list ul li:nth-child(2) div {
-  background-color: var(--main-color-cyan);
+  background-color: var(--main-color-red);
 }
 .theme .color-list ul li:nth-child(3) div {
-  background-color: var(--main-color-red);
+  background-color: var(--main-color-cyan);
 }
 .theme .color-list ul li:nth-child(4) div {
   background-color: var(--main-color-orange);

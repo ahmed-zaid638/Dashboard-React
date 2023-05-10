@@ -10,19 +10,19 @@ export const Profile = () => {
     <div className="profile">
       <div className="">
         <img src={user} alt="" />
-        <div>Ahmed</div>
+        <div>Profile</div>
       </div>
       <div className="">
         <img src={wallet} alt="" />
-        <div>Ahmed</div>
+        <div>My wallet</div>
       </div>
       <div className="">
         <img src={settings} alt="" />
-        <div>Ahmed</div>{" "}
+        <div>Settings</div>{" "}
       </div>
       <div className="">
         <img src={logout} alt="" />
-        <div>Ahmed</div>{" "}
+        <div>Logout</div>{" "}
       </div>
     </div>
   );
