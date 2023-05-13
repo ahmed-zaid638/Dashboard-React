@@ -58,10 +58,10 @@ export const TopCustomers = () => {
             </tr>
           </thead>
           <tbody>
-            {TopCustomers_data.map((customer) => {
+            {TopCustomers_data.map((customer , index) => {
               return (
                 <>
-                  <tr>
+                  <tr key={index} >
                     <td>{customer.user}</td>
                     <td>{customer.totalOrders}</td>
                     <td>{customer.TotalSpending}</td>
@@ -93,10 +93,10 @@ export const LatestOrders = () => {
             </tr>
           </thead>
           <tbody>
-            {LatestOrders_data.map((order) => {
+            {LatestOrders_data.map((order , index) => {
               return (
-                <>
-                  <tr>
+                < >
+                  <tr key={index} >
                     <td>{order.orderId}</td>
                     <td>{order.user}</td>
                     <td>{order.totalPrice}</td>

@@ -3,7 +3,7 @@
   top: 100px;
   left: 300px;
   width: calc(100% - 300px);
-  height: 120%;
+  height: auto ; 
   background-color: var(--second-bg-dark);
   padding: 20px;
   color: var(--txt-color-dark);
