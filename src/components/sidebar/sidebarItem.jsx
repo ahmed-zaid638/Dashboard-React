@@ -7,7 +7,7 @@ library.add(faUserGroup  , faHouse , faCartPlus , faChartSimple  , faListOl , fa
 // eslint-disable-next-line react/prop-types
 const SidebarItem = ({ name, icon, route}) => {
   return (
-    <NavLink to={route} className="item" activeClassName="active">
+    <NavLink to={route} className="item" activeclassname="active">
       <span className="icon">
         <FontAwesomeIcon icon={icon} />
       </span>

@@ -4,6 +4,10 @@ import cart from "../../../assets/images/cart.svg";
 import "./notification.css";
 
 export const Notification = () => {
+
+
+
+  
   return (
     <div className="notification">
       <div className="">

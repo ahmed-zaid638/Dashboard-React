@@ -1,18 +1,19 @@
-import { createSlice, createStore } from "@reduxjs/toolkit";
+import { createSlice, configureStore } from "@reduxjs/toolkit";
 
 
-const ahmedSlice = createSlice({
-    name: "test",
+const themeSlice = createSlice({
+    name: "theme",
     initialState: { name: "ahmed" },
     reducers: {
-       
-
+        increment: state => console.log(state.name),
+        decrement: state => state.name === "- omer",
     }
 })
+const mystore = configureStore({
+    reducer: themeSlice.reducer,
+})
 
-const mystore = createStore(ahmedSlice.reducer)
-
-export const myactions = ahmedSlice.actions
+export const themeActions = themeSlice.actions
 
 export default mystore
 

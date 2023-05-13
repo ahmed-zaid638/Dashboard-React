@@ -4,12 +4,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  
-  
 }
 :root {
-  --main-bg: #ffffff;
-  --second-bg: #fafafb;
+  --main-bg-light: #ffffff;
+  --second-bg-light: #fafafb;
   --main-bg-dark: #2d2d2d;
   --second-bg-dark: #202020;
   --txt-color-dark: #bbbbbb;
@@ -25,7 +23,6 @@
   --main-color-orange: #d68102;
   --second-color-orange: #fca11a;
   --box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px;
-  
 }
 
 ul {
