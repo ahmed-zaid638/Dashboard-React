@@ -62,6 +62,7 @@ const Dashboard = () => {
       <div className="tables">
         <TopCustomers />
         <LatestOrders />
+       
       </div>
     </div>
   );
