@@ -16,11 +16,12 @@
   padding: 15px;
 }
 .notification div:hover {
-  background-color: var(--second-bg-dark);
+  background-color: var(--second-color-blue);
 }
-.notification div:hover {
-  background-color: var(--second-bg-dark);
+.notification div:hover p {
+  color: white;
 }
+
 .notification p {
   color: var(--txt-color-dark);
   margin: 0;

@@ -34,7 +34,7 @@
   transition: 0.5s;
 }
 .dashboard .stats .boxes .box:hover {
-  background-color: var(--second-color-red);
+  background-color: var(--second-color-blue);
 }
 
 /* .dashboard .stats .boxes .box::before {
@@ -101,7 +101,7 @@ table tr td {
 }
 .dashboard .tables .topcutomers table tbody tr:hover,
 .dashboard .tables .orders table tbody tr:hover {
-  background: var(--second-color-red);
+  background: var(--second-color-blue);
 }
 
 .dashboard .tables .orders table tbody tr span {

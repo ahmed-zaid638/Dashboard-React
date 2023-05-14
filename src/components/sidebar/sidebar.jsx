@@ -13,7 +13,7 @@ const Sidebar = () => {
               key={index}
               id={item.id}
               icon={item.icon}
-              name={item.name}t
+              name={item.name}
               route={item.route}
             />
           );
