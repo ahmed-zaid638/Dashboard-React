@@ -16,11 +16,9 @@
   padding: 15px 20px;
 }
 .profile div:hover {
-  background-color: var(--second-bg-dark);
+  background-color: var(--second-color-blue);
 }
-.profile div:hover {
-  background-color: var(--second-bg-dark);
-}
+
 .profile > div div {
   margin-left: 10px;
 }
@@ -28,9 +26,7 @@
 .profile div img {
   width: 25px !important;
 }
-
 /* Responisve */
-
 @media (max-width: 776px) {
   .profile {
     width: 120px;

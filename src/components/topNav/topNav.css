@@ -71,7 +71,7 @@
 .topnav .topnav-right .notfication-icon .count {
   position: absolute;
   right: -4px;
-  background-color: var(--main-color-red);
+  background-color: var(--main-color-blue);
   border-radius: 50%;
   top: -15px;
   padding: 2px;

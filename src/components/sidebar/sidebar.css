@@ -32,19 +32,20 @@
   color: white;
   font-weight: bold;
   text-decoration: none;
+
 }
 .sidebar .items .active {
   border-radius: 10px;
   background-image: linear-gradient(
     to right,
-    var(--main-color-red),
-    var(--second-color-red)
+    var(--main-color-blue),
+    var(--second-color-blue)
   );
   color: white;
 }
 
 .sidebar .items .item:not(.active):hover {
-  color: var(--main-color-red);
+  color: var(--main-color-blue);
 }
 .sidebar .items .item .icon {
   margin-right: 10px;
@@ -75,7 +76,7 @@
   }
 
   .sidebar .logo {
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 10px;
   }
   .sidebar .items .item {
