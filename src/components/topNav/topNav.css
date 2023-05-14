@@ -17,7 +17,7 @@
   padding: 14px;
   border: none;
   border-radius: 10px;
-  
+
   width: 300px;
   outline: none;
   box-shadow: var(--box-shadow);
@@ -70,7 +70,7 @@
 
 .topnav .topnav-right .notfication-icon .count {
   position: absolute;
-  right: -8px;
+  right: -4px;
   background-color: var(--main-color-red);
   border-radius: 50%;
   top: -15px;
@@ -88,4 +88,66 @@
 }
 .topnav .topnav-right .theme-icon img {
   cursor: pointer;
+}
+
+/* responsive  */
+@media (max-width: 991px) {
+  .topnav {
+    left: 223px;
+    width: calc(100% - 223px);
+  }
+
+  .topnav .topnav-left input {
+    width: 210px;
+  }
+}
+@media (max-width: 776px) {
+  .topnav {
+    left: 86px;
+    width: calc(100% - 86px);
+    padding: 50px 10px;
+    height: 65px;
+  }
+
+  .topnav .topnav-left input {
+    width: 170px;
+    padding: 10px;
+  }
+
+  .topnav-left img {
+    width: 16px;
+  }
+
+  .topnav .topnav-right .profile-icon img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .topnav .topnav-right .notfication-icon img {
+    width: 30px;
+  }
+  .topnav .topnav-right .profile-icon span {
+    font-size: 15px;
+  }
+
+  .topnav .topnav-right .theme-icon {
+    width: 25px;
+    margin-left: 10px;
+  }
+  .topnav .topnav-right .notfication-icon .count {
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    right: -4px;
+    top: -12px;
+  }
+}
+
+@media (max-width: 500px) {
+  .topnav {
+    justify-content: center;
+  }
+  .topnav .topnav-left {
+    display: none;
+  }
 }

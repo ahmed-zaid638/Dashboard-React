@@ -11,5 +11,21 @@
 .settings div {
   color: #bbbbbb;
   font-size: 30px;
-  
+}
+/* Responsive  */
+@media (max-width: 991px) {
+  .settings {
+    left: 224px;
+    width: calc(100% - 224px);
+  }
+}
+@media (max-width: 776px) {
+  .settings {
+    left: 86px;
+    width: calc(100% - 83px);
+    padding: 20px;
+  }
+  .settings div {
+    font-size: 20px;
+  }
 }

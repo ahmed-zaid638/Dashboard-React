@@ -29,3 +29,22 @@
 .notification div img {
   width: 30px !important;
 }
+/* Responsive  */
+@media (max-width: 768px) {
+  .notification {
+    width: 244px;
+    top: 40px;
+    left: -181px;
+  }
+  .notification div {
+    padding: 12px;
+  }
+
+  .notification p {
+    margin-left: 15px;
+    font-size: 13px;
+  }
+  .notification div img {
+    width: 20px !important;
+  }
+}

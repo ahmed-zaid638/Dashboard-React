@@ -13,3 +13,21 @@
   font-size: 30px;
   
 }
+
+/* Responsive  */
+@media (max-width: 991px) {
+  .products {
+    left: 224px;
+    width: calc(100% - 224px);
+  }
+}
+@media (max-width: 776px) {
+  .products {
+    left: 86px;
+    width: calc(100% - 83px);
+    padding: 20px;
+  }
+  .products div {
+    font-size: 20px;
+  }
+}

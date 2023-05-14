@@ -1,5 +1,5 @@
 .sidebar {
-  background-color: var( --main-bg-dark);
+  background-color: var(--main-bg-dark);
   width: 300px;
   height: 100vh;
   position: fixed;
@@ -10,6 +10,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .sidebar .logo {
   color: white;
   font-size: 30px;
@@ -54,4 +55,38 @@
   font-weight: bold;
 }
 
-/* test    */
+/* responsive  */
+@media (max-width: 991px) {
+  .sidebar {
+    width: 224px;
+  }
+
+  .sidebar .logo {
+    font-size: 25px;
+  }
+  .sidebar .items .item .name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+@media (max-width: 767px) {
+  .sidebar {
+    width:  86px;
+  }
+
+  .sidebar .logo {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .sidebar .items .item {
+    padding-left: 0;
+    padding: 15px 0;
+    text-align: center;
+    width: 70%;
+    padding: 12px 0;
+    width: 80%;
+  }
+  .sidebar .items .item .name {
+    display: none;
+  }
+}

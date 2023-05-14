@@ -3,15 +3,21 @@
   top: 100px;
   left: 300px;
   width: calc(100% - 300px);
-  height: auto ; 
+  height: auto;
   background-color: var(--second-bg-dark);
   padding: 20px;
   color: var(--txt-color-dark);
+}
+.dashboard .stats {
+  width: 100%;
+  display: flex;
+  gap: 20px;
 }
 
 .dashboard .stats .boxes {
   display: flex;
   flex-wrap: wrap;
+  width: 50%;
   gap: 20px;
 }
 .dashboard .stats .boxes .box {
@@ -25,33 +31,46 @@
   position: relative;
   overflow: hidden;
   z-index: 10;
+  transition: 0.5s;
+}
+.dashboard .stats .boxes .box:hover {
+  background-color: var(--second-color-red);
 }
 
-
-.dashboard .stats .boxes .box::before {
+/* .dashboard .stats .boxes .box::before {
   content: "";
   position: absolute;
-  width: 118%;
-  height: 29%;
+  width: 290%;
+  height: 0%;
   background-color: var(--second-color-red);
-  left: -138px;
-  bottom: -169px;
+  left: -343px;
+  bottom: -20px;
   transition: 1s;
   transform: rotate(45deg);
   z-index: -3;
-}
-.dashboard .stats .boxes .box:hover::before {
-  width: 315%;
-  height: 620%;
-}
+} */
+/* .dashboard .stats .boxes .box:hover::before {
+  height: 240%;
+} */
 .dashboard .stats .boxes .box .icon {
-  width: 48px;
-  height: 48px;
+  width: 40px;
+  height: 40px;
 }
+.dashboard .stats .boxes .box .text {
+}
+.dashboard .stats .boxes .box .text h4 {
+  font-size: 25px;
+}
+
+.dashboard .stats .boxes .box .text p {
+  font: 15px;
+}
+
 .dashboard .stats .graph {
   background-color: var(--main-bg-dark);
   border-radius: 10px;
   padding: 13px;
+  width: 50%;
 }
 /* table  */
 .dashboard .tables {
@@ -90,7 +109,6 @@ table tr td {
   padding: 4px 9px;
   color: white;
   font-weight: bold;
-  
 }
 
 .dashboard .tables .orders table tbody tr:nth-child(1) span {
@@ -114,10 +132,68 @@ table tr td {
   background-color: var(--main-bg-dark);
   border-radius: 10px;
   padding: 30px;
+  overflow: auto;
 }
 .dashboard .view-all {
   cursor: pointer;
 }
 .dashboard .view-all:hover {
   color: var(--second-color-red);
+}
+/* Resposive  */
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 991px) {
+  .dashboard {
+    left: 224px;
+    width: calc(100% - 224px);
+  }
+  .dashboard .stats {
+    flex-direction: column;
+  }
+  .dashboard .stats .graph {
+    width: 100%;
+  }
+  .dashboard .stats .boxes {
+    width: 100%;
+  }
+  .dashboard .stats .boxes .box {
+  }
+
+  .dashboard .tables {
+    display: flex;
+    flex-direction: column;
+  }
+  .dashboard .tables .topcutomers {
+    width: 100%;
+  }
+  .dashboard .tables .orders {
+    width: 100%;
+  }
+}
+@media (max-width: 776px) {
+  .dashboard {
+    left: 86px;
+    width: calc(100% - 85px);
+    padding: 12px;
+  }
+
+  .dashboard .stats .boxes {
+  }
+  .dashboard .stats .boxes .box {
+  }
+
+  .dashboard .stats .boxes .box .icon {
+    width: 35px;
+    height: 35px;
+  }
+
+  .dashboard .stats .boxes .box .text h4 {
+    font-size: 20px;
+  }
+  .dashboard .stats .boxes .box .text p {
+    font-size: 12px;
+  }
 }
