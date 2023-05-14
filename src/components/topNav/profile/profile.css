@@ -21,11 +21,32 @@
 .profile div:hover {
   background-color: var(--second-bg-dark);
 }
-.profile > div div  {
- margin-left: 10px;
-
+.profile > div div {
+  margin-left: 10px;
 }
 
 .profile div img {
   width: 25px !important;
+}
+
+/* Responisve */
+
+@media (max-width: 776px) {
+  .profile {
+    width: 120px;
+    left: -60px;
+    top: 31px;
+  }
+
+  .profile > div {
+    padding: 11px;
+  }
+  .profile > div div {
+    font-size: 14px;
+    margin-left: 3px;
+  }
+
+  .profile div img {
+    width: 15px !important;
+  }
 }

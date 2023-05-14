@@ -4,7 +4,7 @@
   top: 100px;
   left: 300px;
   width: calc(100% - 300px);
-  height: auto ;
+  height: auto;
   padding: 30px;
 }
 
@@ -16,7 +16,7 @@
   padding: 15px;
   background: var(--main-bg-dark);
   border-radius: 15px;
- overflow-y: auto;
+  overflow-y: auto;
 }
 
 .customers .table-wrapper table thead tr {
@@ -29,9 +29,20 @@
 }
 .customers .table-wrapper table tr td {
   padding: 20px;
-
 }
 
+/* Responsive */
 
-
-
+@media (max-width: 991px) {
+  .customers {
+    left: 224px;
+    width: calc(100% - 224px);
+  }
+}
+@media (max-width: 776px) {
+  .customers {
+    left: 86px;
+    width: calc(100% - 83px);
+    padding: 20px;
+  }
+}
